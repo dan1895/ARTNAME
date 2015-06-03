@@ -1,0 +1,292 @@
+a
+{
+    color: #22BCE0;
+}
+body
+{
+    font-family: Calibri;
+    background: #EEEEEE;
+    font-size: 16px;
+    background-image: url("imagenes/font.jpg");
+    background-size: 100%;
+}
+header 
+{
+    background-image: url("IMAGENES/trans.png");
+    width: 1100px;
+    margin: 0 auto;
+    height:auto;
+    padding: 1px;
+}
+header #Logo img
+{
+    width: 150px;   
+}
+header h2
+{
+    font-size: 2.2em;
+    font-weight: normal;
+    text-align: center;
+    color: dodgerblue;
+    text-decoration: none;
+    text-shadow: rgba(0,0,0,1) 3px 3px 3px;
+}
+header h1
+{
+    font-size: 2.2em;
+    font-weight: normal;
+    text-align: center;
+    color: black;
+    text-decoration: none;
+    text-shadow: rgba(0,0,0,1) 3px 3px 3px;
+}
+header figure
+{
+    float: inherit;
+    margin: auto;
+    text-align: center;
+}
+#CUERPO
+{
+    background-image: url("IMAGENES/trans2.png");
+    padding: 1px;
+}
+#PIE
+{
+    background: #000;
+    color: aliceblue;
+    text-align: center;
+    height: 50px;
+}
+{
+    color: black;
+    text-align: center;
+    width: 1100px;
+    margin: 0 auto;
+    height:auto;
+}
+nav ul
+{
+    list-style: none;
+    color: black;
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+nav ul li 
+{
+    display: inline-block;
+}
+nav ul li a
+{
+    list-style: armenian;
+    font-size: 1.2em;
+    color: black;
+    display: block;
+    padding: 0.5em;
+    text-decoration: none;
+    font-weight: normal;
+    text-align: center;
+}
+nav ul li a:hover
+{
+    border-top-style: solid;
+    color: dodgerblue;
+}
+.main 
+{
+    width: 100%;
+    max-width: 2000px;
+    margin: 10px auto;
+    overflow: hidden;
+}
+.slides
+{
+    width: 100%;
+}
+.slides img
+{
+   width: 80%;  
+}
+.slidesjs-pagination 
+{
+    background-image: url(IMAGENES/trans.png);
+    list-style: none;
+    overflow: hidden;
+    padding: 1px;
+}
+.slidesjs-pagination li
+{
+    float: left;
+}
+.slidesjs-pagination li a
+{
+    display: block;
+    padding: 10px 20px;
+    color: black;
+    text-decoration: none;
+}
+.slides .active
+{
+    background: #BBB;
+}
+#TITULOEXPO
+{
+    color: aliceblue;
+    background: #000;
+    width: 300px;
+    margin-left: 30px;
+    height: 100px;
+    text-align: center;
+    align-items: center;
+    padding: 1px;
+}
+#EXPOCONT
+{
+    color: black;
+    background: #FFFFFF;
+    width: 300px;
+    margin-left: 30px;
+    height: 110px;
+    text-align: left;
+    padding: 1px;
+}
+#FECHA
+{
+    color: darkgrey;
+}
+#TITULO1
+{
+    font-family: Arial;
+    font-weight: normal;
+    color: aliceblue;
+    font-size: 25px;   
+}
+#HORARIOAPERT
+{
+    border: solid black;
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+}
+#TITLE
+{
+    font-size: 30px;
+    border-bottom: solid black;
+    text-align: center;
+}
+#MS
+{
+    color: aliceblue;
+    background: #000;
+    text-align: center;
+}
+#AP
+{
+    color: aliceblue;
+    background: #000;
+    text-align: center;
+}
+#NEWEXPO
+{
+    border: solid black;
+    width: 300px;
+    height: auto;
+    margin-left: 30px;
+    margin: 30px;
+}
+#TITULO2
+{
+    font-size: 30px;
+    border-bottom: solid black;
+    text-align: center;
+}
+#ARTMAIN
+{
+    display: inline-block;
+}
+#ARTNAME
+{
+    background: #000;
+    color: aliceblue;
+    width: 120px;
+    font-size: 30px;
+    margin-left: 10px;
+}
+#ART
+{
+    margin-top: 100px;
+    border: solid black;
+    width: 400px;
+    margin-left: 350px;
+    background: #FFF;
+}
+#BLOGSNAME
+{
+    background: #000;
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 30px;
+    width: 100px;
+}
+#BGCUERPO
+{
+    border: solid black;
+    margin: 10px;
+    margin-bottom: 10px;
+}
+#IMGBG
+{
+    width: 500px;
+    height: 400px;
+    margin: 10px;
+}
+#PICASO
+{
+    background: #000;
+    color: aliceblue;
+    margin-left: 10px;
+    font-size: 30px;
+    width: 100px;
+    margin: 20px;
+}
+#MUSEO
+{
+    background-image: url(IMAGENES/trans2.png);
+    padding: 1px;
+    width: 1100px;
+    margin: 0 auto;
+    height:auto;
+}
+#PARIS
+{
+    border: solid black;
+    margin: 10px;
+}
+#PARISTITLE
+{
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+}
+#IMGPARIS
+{
+    margin: 10px;
+}
+#METROART
+{
+    border: solid black;
+    margin: 10px;
+}
+#METROTITLE
+{
+    font-size: 30px;
+    margin-left: 10px;
+    color: black;
+}
+#IMGMETRO
+{
+    margin: 10px;
+    width: 900px;
+    height: 500px;
+}

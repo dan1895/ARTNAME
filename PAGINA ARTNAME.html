@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>  
+    <meta charset="utf-8" />
+    <meta name="description" content="expociciones artisticas mundiales de grandes autores mundiales de todos los tiempos" />
+    <title> ARTNAME </title>
+    <link rel="stylesheet" href="normalize.css" />
+    <link rel="stylesheet" href="estilo.css" />
+</head>
+<body>
+    <header>
+        <figure id="Logo">
+            <img src="IMAGENES/Logo.png" />
+        </figure>
+        <h2 id="NAME">ART</h2>
+        <h1 id="NAME2">GALLERY</h1>
+    <nav>
+        <ul>
+            <li><a href="PAGINA ARTNAME.html"> Home </a></li>
+            <li><a href="ARTISTAS.html"> Artistas </a></li>
+            <li><a href="MUSEO.html"> Museo </a></li>
+            <li><a href="BLOG.html"> Blog </a></li>
+        </ul>
+    </nav>
+    </header>
+    <header id="CUERPO">
+    <div class="main">
+<div class="slides">
+    <img src="IMAGENES/1.jpg" alt="">
+    <img src="IMAGENES/2.jpg" alt="">
+    <img src="IMAGENES/3.jpg" alt="">
+    <img src="IMAGENES/4.jpg" alt="">
+    <img src="IMAGENES/5.jpg" alt="">
+    <img src="IMAGENES/6.jpg" alt="">
+    <img src="IMAGENES/7.jpg" alt="">
+</div>
+    </div>
+<div id="EXPOTOTAL">
+    <div id="TITULOEXPO">
+    <h2 id="TITULO1">exposiciones en curso</h2>
+    </div>
+    <div id="EXPOCONT">
+    <p>Luis Rocca:</p>
+    <p>Below the Fold</p>
+    <p id="FECHA">03/05/2015</p>
+    </div>
+</div>
+    <br>
+    <br>
+    <br>
+    <div id="HORARIOAPERT">
+    <p id="TITLE"> Horario de apertura </p>
+    <p id="MS">MARTES - SABADO</p>
+    <p id="AP">10:00AM -  6:00PM</p>
+    <P>Tenga en cuenta que estamos cerrados el domingo. Los lunes sólo estamos abierto por la cita.</P>    
+    </div>
+    <div id="NEWEXPO">
+    <p id="TITULO2">Nueva Expo</p>  
+    <P>San Francisco Artifact Reviews "Below the Fold"</P>
+    <P>Visionary Photographer Adam Kant Turns His Lens on the Peninsula</P>
+    <P>When Art Meets Commerce: The Kinetic Sculpture</P>
+    </div>
+    <div>
+    <script src="http://code.jquery.com/jquery-1.9.1.min.js"></script>
+    <script src="js/jquery.slides.js"></script>
+    <script>
+$(function(){
+  $(".slides").slidesjs({
+    play: {
+      effect: "slide",
+        // [string] Can be either "slide" or "fade".
+      interval: 5000,
+        // [number] Time spent on each slide in milliseconds.
+      auto: true,
+        // [boolean] Start playing the slideshow on load.
+      swap: true,
+        // [boolean] show/hide stop and play buttons
+      pauseOnHover: false,
+        // [boolean] pause a playing slideshow on hover
+      restartDelay: 2500
+        // [number] restart delay on inactive slideshow
+    }
+  });
+});
+    </script>
+    </div>
+    </header>
+<p id="PIE">© 2015 by Art Gallery. Proudly created by Andres F. Osorio</p>
+</body>
+</html>
